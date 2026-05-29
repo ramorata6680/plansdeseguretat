@@ -22,6 +22,9 @@
     footer { background:#222; color:white; text-align:center; padding:20px; margin-top:20px; }
     a { color:#007ACC; text-decoration:none; }
     .whatsapp-btn { display:inline-block; background:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; margin-bottom:20px; }
+    .project-gallery { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+    .project-gallery img { width:calc(50% - 10px); border-radius:8px; }
+    @media(max-width:600px){ .project-gallery img { width:100%; } }
   </style>
 </head>
 <body>
@@ -45,18 +48,16 @@
       <p>Treballs en altura, cobertes, bastides i maquinària pesada.</p>
       <p><strong>Preu:</strong> 600 €</p>
     </div>
-    <div class="service">
-      <h3>Servei mensual per empresa</h3>
-      <p>Paquet de 2-4 plans/mes, revisió i suport documental inclòs.</p>
-      <p><strong>Preu:</strong> 800 €</p>
-    </div>
   </div>
 
   <div class="testimonial">
-    <img src="20251219_113550.jpg" alt="Obra exemple">
     <div>
       <p><strong>Comentari client:</strong> "He canviat la teulada metàlica per una de teula ceràmica i gràcies al pla de Seguretat Obres Plus, tot l’obra s’ha fet sense retards ni incidències. Molt recomanable!"</p>
       <p><a href="Pla_Exemple.pdf" download>Descarrega pla d’exemple</a></p>
+      <div class="project-gallery">
+        <img src="20251219_113550.jpg" alt="Projecte exemple 1">
+        <img src="20251219_113550.jpg" alt="Projecte exemple 2">
+      </div>
     </div>
   </div>
 </section>
