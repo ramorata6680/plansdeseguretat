@@ -1,7 +1,70 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguretat Obres Plus</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+    header { background:#007ACC; color:white; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    header p { font-size:1.2em; margin-top:10px; }
+    section { padding:40px 20px; max-width:1000px; margin:auto; }
+    h2 { color:#007ACC; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; margin-top:20px; }
+    .service { border:1px solid #ccc; padding:20px; border-radius:8px; }
+    .service h3 { margin-top:0; }
+    .testimonial { background:#f4f4f4; padding:20px; margin-top:20px; border-radius:8px; display:flex; flex-wrap:wrap; gap:20px; }
+    .testimonial img { max-width:300px; border-radius:8px; }
+    .contact-form { display:flex; flex-direction:column; max-width:500px; margin:auto; gap:10px; }
+    input, textarea { padding:10px; font-size:1em; border:1px solid #ccc; border-radius:5px; width:100%; }
+    button { padding:10px; font-size:1em; background:#007ACC; color:white; border:none; border-radius:5px; cursor:pointer; }
+    footer { background:#222; color:white; text-align:center; padding:20px; margin-top:20px; }
+    a { color:#007ACC; text-decoration:none; }
+    .whatsapp-btn { display:inline-block; background:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; margin-bottom:20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Seguretat Obres Plus</h1>
+  <p>Plans de Seguretat i Salut per a obres, ràpid i segur</p>
+  <p>Servei a València, Alacant i Castelló</p>
+</header>
+
+<section>
+  <h2>Serveis</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Obra Menor</h3>
+      <p>Plans adaptats per obres petites, reformes interiors i banys.</p>
+      <p><strong>Preu:</strong> 400 €</p>
+    </div>
+    <div class="service">
+      <h3>Obra amb risc específic</h3>
+      <p>Treballs en altura, cobertes, bastides i maquinària pesada.</p>
+      <p><strong>Preu:</strong> 600 €</p>
+    </div>
+    <div class="service">
+      <h3>Servei mensual per empresa</h3>
+      <p>Paquet de 2-4 plans/mes, revisió i suport documental inclòs.</p>
+      <p><strong>Preu:</strong> 800 €</p>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <img src="20251219_113550.jpg" alt="Obra exemple">
+    <div>
+      <p><strong>Comentari client:</strong> "He canviat la teulada metàlica per una de teula ceràmica i gràcies al pla de Seguretat Obres Plus, tot l’obra s’ha fet sense retards ni incidències. Molt recomanable!"</p>
+      <p><a href="Pla_Exemple.pdf" download>Descarrega pla d’exemple</a></p>
+    </div>
+  </div>
+</section>
+
 <section>
   <h2>Contacta'ns</h2>
   <p>Pots contactar-nos directament via WhatsApp o enviant el formulari:</p>
-  <a href="https://wa.me/34605682308" target="_blank" style="display:inline-block; background:#25D366; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; margin-bottom:20px;">Contacta via WhatsApp</a>
+  <a href="https://wa.me/34605682308" target="_blank" class="whatsapp-btn">Contacta via WhatsApp</a>
   <form class="contact-form" action="mailto:ramorata66@gmail.com" method="post" enctype="text/plain">
     <input type="text" name="nom" placeholder="Nom" required>
     <input type="email" name="email" placeholder="Correu electrònic" required>
@@ -11,10 +74,9 @@
   </form>
 </section>
 
-<div class="testimonial">
-  <img src="/mnt/data/20251219_113550.jpg" alt="Obra exemple">
-  <div>
-    <p><strong>Comentari client:</strong> "He canviat la teulada metàlica per una de teula ceràmica i gràcies al pla de Seguretat Obres Plus, tot l’obra s’ha fet sense retards ni incidències. Molt recomanable!"</p>
-    <p><a href="/mnt/data/20251219_113550.jpg" download="Pla_Exemple.pdf">Descarrega pla d’exemple</a></p>
-  </div>
-</div>
+<footer>
+  <p>© 2026 Seguretat Obres Plus - Servei a València, Alacant i Castelló</p>
+</footer>
+
+</body>
+</html>
